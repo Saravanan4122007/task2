@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Registration Form</h1>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">Full Name:</label>
+            <input id="name" type="text" name="username" placeholder="Enter your full name">
+            <br>
+            <label for="Username">Username:</label>
+            <input id="Username" type name="username" value="user123" readonly>
+            <br>
+            <label for="pwd">Password:</label>
+            <input id="pwd" type="password" name="password" placeholder="Enter password">
+            <br>
+            <label for="dob">Date of Birth:</label>
+            <input id="dob" type="date">
+            <br>
+            <label for="gender">gender</label>
+            <br>
+            <input id="gender" type="radio" name="gender" value="male">Male
+            <br>
+            <input id="gender" type="radio" name="gender" value="female">Female
+            <br>
+            <input id="gender" type="radio" name="gender" value="other">Other
+        </fieldset>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for = email>Email:</label>
+            <input id="email" type="email" name="email" placeholder="Enter email">
+            <br>
+            <label for="phnoe">Phone:</label>
+            <input id="phone" type="tel" name="number" placeholder="e.g., 9876543210">
+            <br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="usermessage" rows="5" cols="30" placeholder="Your address here..."></textarea>
+            <br>
+            <label for="text">Search Profile:</label>
+            <input id="text" type="text" name="text">
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="hobbies">Select Hobbies:</label>
+            <input id="hobbies" type="checkbox" name="hobbies" value="Cricket">Cricket
+            <input id="hobbies" type="checkbox" name="hobbies" value="Music">Music
+            <input id="hobbies" type="checkbox" name="hobbies" value="Reading (Disabled)">Reading (Disabled)
+            <br>
+            <label for="color">Favorite Color:</label>
+            <input id="color" type="color" name="color">
+            <br>
+            <label for="volume">Set Volume (0-100):</label>
+            <input id="volume" type="range" name="range">
+            <br>
+            <label for="time">Best Contact Time:</label>
+            <input id="time" type="time" name="time">
+            <br>
+            <label for="country">Select Country:</label>
+            <select id="country" name="country">
+                <optgroup label="Asia">
+                    <option value-in>India</option>
+                    <option value-cn>China</option>
+                    <option value-ru>Russia</option>
+                </optgroup>
+            </select>
+        </fieldset>        
+        <fieldset>
+            <legend>Upload Section</legend>
+            <label for="syllabus">Upload Syllabus</label>
+            <input id="syllabus" type="file" name="file">
+        </fieldset>
+        <fieldset>
+            <legend>Submit Form</legend>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button>Click Me</button>
+        </fieldset>
+    </body>
+</html>
